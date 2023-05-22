@@ -12,6 +12,7 @@ import AWS from "../public/assets/skills/aws.png";
 
 const Skills = () => {
   return (
+    <>
     <div id="skills" className="w-full lg:h-screen p-2">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <p className="text-xl tracking-widest uppercase text-[#119DA4]">
@@ -102,6 +103,7 @@ const Skills = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

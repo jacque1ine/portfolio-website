@@ -5,7 +5,7 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 // import { useRouter } from 'next/router';
-import NavLogo from "../public/assets/avatar.png";
+import NavLogo from "../public/assets/logo.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -29,6 +29,7 @@ const Navbar = () => {
   }, []);
 
   return (
+    <>
     <div
       style={{ backgroundColor: `${navBg}` }}
       className={
@@ -64,7 +65,7 @@ const Navbar = () => {
               <Link href="/#projects">Projects</Link>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/resume">Resume</Link>
+              <Link href="https://drive.google.com/file/d/1RFkAsGN6EtWFm2Y5kj-rr3YjNH-nD1Rk/view?usp=sharing">Resume</Link>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
               <Link href="/#contact">Contact</Link>
@@ -138,7 +139,7 @@ const Navbar = () => {
                   Projects
                 </li>
               </Link>
-              <Link href="/resume">
+              <Link href="https://drive.google.com/file/d/1RFkAsGN6EtWFm2Y5kj-rr3YjNH-nD1Rk/view?usp=sharing">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Resume
                 </li>
@@ -180,13 +181,13 @@ const Navbar = () => {
                     <AiOutlineMail />
                   </div>
                 </Link>
-                <Link href="/resume">
-                  <div
+                <Link href="https://drive.google.com/file/d/1RFkAsGN6EtWFm2Y5kj-rr3YjNH-nD1Rk/view?usp=sharing">
+                  <a href="https://drive.google.com/file/d/1RFkAsGN6EtWFm2Y5kj-rr3YjNH-nD1Rk/view?usp=sharing"
                     onClick={() => setNav(!nav)}
                     className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
                   >
-                    <BsFillPersonLinesFill />
-                  </div>
+                    {/* <BsFillPersonLinesFill /> */}
+                  </a>
                 </Link>
               </div>
             </div>
@@ -194,6 +195,7 @@ const Navbar = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
