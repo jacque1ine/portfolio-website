@@ -17,7 +17,7 @@ const About = () => {
             </p>
             <h2 className="py-4">Who is Jacqueline?</h2>
             <p className="py-2 text-gray-600">
-              Hi! I'm Jacqueline, a software developer and{" "}
+              Hi! I&aposm Jacqueline, a software developer and{" "}
               <a
                 className="underline"
                 href="https://uwaterloo.ca/systems-design-engineering/about-systems-design-engineering/what-systems-design-engineering"
@@ -37,7 +37,7 @@ const About = () => {
                 {" "}
                 Worked at{" "}
                 <a
-                  class="underline"
+                  className="underline"
                   href="https://www.rbcroyalbank.com/personal.html"
                   target="_blank"
                   rel="noreferrer"
