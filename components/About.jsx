@@ -22,6 +22,7 @@ const About = () => {
                 className="underline"
                 href="https://uwaterloo.ca/systems-design-engineering/about-systems-design-engineering/what-systems-design-engineering"
                 target="_blank"
+                rel="noreferrer"
               >
                 Systems Design Engineering Student
               </a>{" "}
@@ -39,6 +40,7 @@ const About = () => {
                   class="underline"
                   href="https://www.rbcroyalbank.com/personal.html"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   RBC
                 </a>{" "}
@@ -47,6 +49,7 @@ const About = () => {
                   className="underline"
                   href="https://www.tieit.ai/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   TIEIT AI
                 </a>{" "}
