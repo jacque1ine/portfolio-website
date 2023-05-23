@@ -25,9 +25,9 @@ const About = () => {
               >
                 Systems Design Engineering Student
               </a>{" "}
-              at the University of Waterloo.
+              at the University of Waterloo.{" "}
+              <i> Currently seeking Fall 2023 internships</i>
             </p>
-
             <ul className="list-disc pl-5">
               <li className="pb-2">
                 Passionate about web development, data, and machine learning.{" "}
@@ -44,7 +44,7 @@ const About = () => {
                 </a>{" "}
                 as a full-stack developer co-op for two terms, and at{" "}
                 <a
-                  class="underline"
+                  className="underline"
                   href="https://www.tieit.ai/"
                   target="_blank"
                 >
@@ -58,11 +58,15 @@ const About = () => {
               </li>
             </ul>
 
-            <Link href="/#projects">
+            <div className="pt-5">
+              <i>Currently seeking Fall 2023 internships</i>
+            </div>
+
+            {/* <Link href="/#projects">
               <p className="py-2 text-gray-600 underline cursor-pointer">
                 Check out some of my latest projects.
               </p>
-            </Link>
+            </Link> */}
           </div>
           <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
             <Image src={AboutImg} className="rounded-xl" alt="/" />
