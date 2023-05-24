@@ -14,7 +14,7 @@ export default function Home() {
         <title>Jacqueline Fung</title>
         <meta
           name="description"
-          content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences."
+          content="I’m a software developer and systems design engineering student with the mission to build impactful tech"
         />
         <link rel="icon" href="/logo.png" />
       </Head>

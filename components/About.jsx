@@ -17,7 +17,7 @@ const About = () => {
             </p>
             <h2 className="py-4">Who is Jacqueline?</h2>
             <p className="py-2 text-gray-600">
-              Hi! I&aposm Jacqueline, a software developer and{" "}
+              Hi! I&apos;m Jacqueline, a software developer and{" "}
               <a
                 className="underline"
                 href="https://uwaterloo.ca/systems-design-engineering/about-systems-design-engineering/what-systems-design-engineering"
@@ -27,7 +27,6 @@ const About = () => {
                 Systems Design Engineering Student
               </a>{" "}
               at the University of Waterloo.{" "}
-              <i> Currently seeking Fall 2023 internships</i>
             </p>
             <ul className="list-disc pl-5">
               <li className="pb-2">
@@ -56,8 +55,8 @@ const About = () => {
                 as a Quality Assurance intern.{" "}
               </li>
               <li className="pb-2">
-                Love to play ultimate frisbee, read, and hang out with my family
-                and friends!
+                Love to play ultimate frisbee, read, hike, and hang out with my
+                family and friends!
               </li>
             </ul>
 
@@ -72,7 +71,7 @@ const About = () => {
             </Link> */}
           </div>
           <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
-            <Image src={AboutImg} className="rounded-xl" alt="/" />
+            <Image src={AboutImg} className="rounded-xl" alt="/" priority />
           </div>
         </div>
       </div>
