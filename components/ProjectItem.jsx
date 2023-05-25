@@ -1,27 +1,41 @@
 import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 
 const ProjectItem = ({ title, backgroundImg, tech, projectUrl }) => {
   return (
     <>
-      <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-[#119DA4] to-[#709dff]">
-        <Image
-          className="rounded-xl group-hover:opacity-10"
-          src={backgroundImg}
-          alt="/"
-        />
-        <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
-          <h3 className="text-2xl text-white tracking-wider text-center">
-            {title}
-          </h3>
-          <p className="pb-4 pt-2 text-white text-center">{tech}</p>
-          <Link href={projectUrl}>
-            <p className="text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer">
-              More Info
-            </p>
-          </Link>
-        </div>
+      <div
+        onClick={() => {
+          window.open = { projectUrl };
+        }}
+        className="h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-[#119DA4] to-[#709dff] hover:scale-105 ease-in duration-300"
+        width={900}
+        height={600}
+      >
+        <a href={projectUrl} target="_blank" rel="noreferrer">
+          <Image
+            className="w-full rounded-t-xl group-hover:opacity-10"
+            src={backgroundImg}
+            width={900}
+            height={500}
+            alt="/"
+          />
+          <div className="group-hover:opacity-10">
+            <div className="px-6 pt-3 pb-1 font-bold text-xl mb-2">{title}</div>
+            <div className="px-6 pb-2">
+              {tech.map((title) => {
+                return (
+                  <span
+                    key={title}
+                    className="inline-block bg-gray-200 rounded-full px-3 py-1 text-xs font-semibold text-gray-700 mr-2 mb-2"
+                  >
+                    {title}
+                  </span>
+                );
+              })}
+            </div>
+          </div>
+        </a>
       </div>
     </>
   );

@@ -20,7 +20,7 @@ const Projects = () => {
           </p>
           <h2 className="py-4">What I&apos;ve Built</h2>
 
-          <p className="py-5 uppercase text-sm tracking-widest text-gray-600">
+          <p className="py-5 uppercase text-ml tracking-widest text-gray-600">
             Web Development
           </p>
           <div className="grid md:grid-cols-2 gap-8">
@@ -28,48 +28,82 @@ const Projects = () => {
               title="Gardenize"
               backgroundImg={gardenizeImg}
               projectUrl="https://github.com/jacque1ine/Ellehacks-Gardenize"
-              tech="React, Express, Firebase, Tailwind, Cohere, StabilityAI, OpenAI "
+              tech={[
+                "React",
+                "Express",
+                "Firebase",
+                "Tailwind",
+                "Cohere",
+                "StabilityAI",
+                "OpenAI",
+              ]}
             />
             <ProjectItem
               title="write:here"
               backgroundImg={writehereImg}
               projectUrl="https://github.com/jacque1ine/Hackville-write-here"
-              tech="React, Next.js, Tailwind, Google Cloud Vision, Vercel"
+              tech={[
+                "React",
+                "Next.js",
+                "Tailwind",
+                "Google Cloud Vision",
+                "Vercel",
+                // "MaterialUI",
+                // "ReactHookForm",
+                // "EmailJs",
+              ]}
             />
             <ProjectItem
               title="NBA Sports Standing"
               backgroundImg={nbaImg}
               projectUrl="https://github.com/jacque1ine/SportsStanding"
-              tech="HTML, CSS, Js, Bootstrap"
+              tech={["HTMl", "CSS", "Js", "Bootstrap"]}
             />
             <ProjectItem
               title="Zara Redesigned"
               backgroundImg={zaraImg}
               projectUrl="https://github.com/jacque1ine/ZaraRedesigned"
-              tech="HTML, CSS, Js"
+              tech={["HTML", " CSS", "Js"]}
             />
             <ProjectItem
               title="Back To the Future Zork"
               backgroundImg={btfImg}
               projectUrl="https://github.com/jacque1ine/BackToTheFutureZork"
-              tech="Java"
+              tech={["Java"]}
             />
           </div>
 
-          <h3>Data/Artificial Intelligence</h3>
+          <p className="pb-5 pt-20 uppercase text-md tracking-widest text-gray-600">
+            Data Science and Artificial Intelligence
+          </p>
           <div className="grid md:grid-cols-2 gap-8">
             <ProjectItem
               title="Yelp Sentiment Analysis (NLP)"
               backgroundImg={yelpImg}
               projectUrl="https://github.com/jacque1ine/Review-Sentiment-Analysis"
-              tech="Python, Pandas, Numpy, Matplotlib, Seaborn, SciKitLearn, Spacy"
+              tech={[
+                "Python",
+                "Pandas",
+                "Numpy",
+                "Matplotlib",
+                "Seaborn",
+                "SciKitLearn",
+                "Spacy",
+              ]}
             />
 
             <ProjectItem
               title="Buying a Car"
               backgroundImg={carImg}
               projectUrl="https://github.com/jacque1ine/Buying-Used-Car"
-              tech="Python, Pandas, Numpy, Matplotlib, Seaborn, SciKitLearn"
+              tech={[
+                "Python",
+                "Pandas",
+                "Numpy",
+                "Matplotlib",
+                "Seaborn",
+                "SciKitLearn",
+              ]}
             />
           </div>
         </div>
