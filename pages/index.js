@@ -8,7 +8,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="px-20">
+    <div className="lg:px-20">
       <Head>
         <title>Jacqueline Fung</title>
         <meta
