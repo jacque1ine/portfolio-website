@@ -5,7 +5,6 @@ import Main from "../components/Main";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
 import Image from "next/image";
-import AboutImg from "../public/assets/logo.png";
 
 export default function Home() {
   return (
@@ -16,7 +15,7 @@ export default function Home() {
           name="description"
           content="I’m a software developer and systems design engineering student with the mission to build impactful tech"
         />
-        <link rel="icon" href="/logo.png" />
+        <link rel="icon" href="/logo3.png" />
       </Head>
       <Main />
       <About />
