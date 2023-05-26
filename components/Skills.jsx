@@ -40,7 +40,7 @@ const Skills = () => {
                   <Image src={SpringBoot} width="64px" height="64px" alt="/" />
                 </div>
                 <div className="flex flex-col items-center justify-center">
-                  <h3>SpringBoot</h3>
+                  <h3>Spring</h3>
                 </div>
               </div>
             </div>
