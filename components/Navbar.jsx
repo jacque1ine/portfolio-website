@@ -57,7 +57,7 @@ const Navbar = () => {
                 <Link href="/#projects">Projects</Link>
               </li>
               <li className="ml-10 text-sm uppercase hover:border-b">
-                <Link href="https://drive.google.com/file/d/1RFkAsGN6EtWFm2Y5kj-rr3YjNH-nD1Rk/view?usp=sharing">
+                <Link href="https://drive.google.com/file/d/1xl0Mftq8CKmlkEFKHdyKGx5RY72kxIan/view?usp=sharing">
                   Resume
                 </Link>
               </li>
@@ -135,7 +135,7 @@ const Navbar = () => {
                     Projects
                   </li>
                 </Link>
-                <Link href="https://drive.google.com/file/d/1RFkAsGN6EtWFm2Y5kj-rr3YjNH-nD1Rk/view?usp=sharing">
+                <Link href="https://drive.google.com/file/d/1xl0Mftq8CKmlkEFKHdyKGx5RY72kxIan/view?usp=sharing">
                   <li onClick={() => setNav(false)} className="py-4 text-sm">
                     Resume
                   </li>
@@ -177,9 +177,9 @@ const Navbar = () => {
                       <AiOutlineMail />
                     </div>
                   </Link>
-                  <Link href="https://drive.google.com/file/d/1RFkAsGN6EtWFm2Y5kj-rr3YjNH-nD1Rk/view?usp=sharing">
+                  <Link href="https://drive.google.com/file/d/1xl0Mftq8CKmlkEFKHdyKGx5RY72kxIan/view?usp=sharing">
                     <a
-                      href="https://drive.google.com/file/d/1RFkAsGN6EtWFm2Y5kj-rr3YjNH-nD1Rk/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1xl0Mftq8CKmlkEFKHdyKGx5RY72kxIan/view?usp=sharing"
                       onClick={() => setNav(!nav)}
                       className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
                     >
