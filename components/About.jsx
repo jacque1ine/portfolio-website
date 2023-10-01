@@ -16,25 +16,56 @@ const About = () => {
               About
             </p>
             <h2 className="py-4">Who is Jacqueline?</h2>
-            <p className="py-2 text-gray-600">
-              Hi! I&apos;m Jacqueline, a software developer and{" "}
+            <p className="py-2 text-gray-600 font-medium">
+              Hi! I&apos;m Jacqueline, a Software Engineering Intern at{" "}
               <a
-                className="underline"
+                className="no-underline hover:underline"
+                href="https://www.crunchbase.com/organization/pointclickcare"
+                target="_blank"
+                rel="noreferrer"
+              >
+                PointClickCare
+              </a>{" "}
+              and{" "}
+              <a
+                className="no-underline hover:underline"
                 href="https://uwaterloo.ca/systems-design-engineering/about-systems-design-engineering/what-systems-design-engineering"
                 target="_blank"
                 rel="noreferrer"
               >
-                Systems Design Engineering Student
+                Systems Design Engineering
               </a>{" "}
-              at the University of Waterloo.{" "}
+              Student at the University of Waterloo.
             </p>
+            <br></br>I am...
             <ul className="list-disc pl-5">
               <li className="pb-2">
-                Passionate about web development, data, and machine learning.{" "}
+                A product-centric developer and learning more product day by
+                day.{" "}
               </li>
               <li className="pb-2">
+                Currently building tech for non-profits with{" "}
+                <a
+                  className="no-underline hover:underline"
+                  href="https://uwblueprint.org/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  UW Blueprint.
+                </a>
+              </li>
+              <li>
+                Striving read more - last read was When Breathe Becomes
+                Air:&#41;{" "}
+              </li>
+              <li className="pb-2">
+                Love to play ultimate frisbee and hike{" "}
+                {"(would love to get some book recs:)"}
+              </li>
+
+              <li className="pb-2">
                 {" "}
-                Worked at{" "}
+                Prev @{" "}
                 <a
                   className="underline"
                   href="https://www.rbcroyalbank.com/personal.html"
@@ -43,7 +74,7 @@ const About = () => {
                 >
                   RBC
                 </a>{" "}
-                as a full-stack developer co-op for two terms, and at{" "}
+                and{" "}
                 <a
                   className="underline"
                   href="https://www.tieit.ai/"
@@ -52,18 +83,11 @@ const About = () => {
                 >
                   TIEIT AI
                 </a>{" "}
-                as a Quality Assurance intern.{" "}
-              </li>
-              <li className="pb-2">
-                Love to play ultimate frisbee, read, hike, and hang out with my
-                family and friends!
               </li>
             </ul>
-
             <div className="pt-5">
-              <i>Currently seeking Fall 2023 internships</i>
+              <i>Currently seeking Summer 2024 internships</i>
             </div>
-
             {/* <Link href="/#projects">
               <p className="py-2 text-gray-600 underline cursor-pointer">
                 Check out some of my latest projects.
