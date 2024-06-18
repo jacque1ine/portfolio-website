@@ -17,16 +17,20 @@ const About = () => {
             </p>
             <h2 className="py-4">Who is Jacqueline?</h2>
             <p className="py-2 text-gray-600 font-medium">
-              Hi! I&apos;m Jacqueline, a Software Engineering Intern at{" "}
+              Hi! I&apos;m Jacqueline, a product-oriented software engineer:)
+              <br></br>
+              <br></br>
+              I'm currently a Software Engineering Intern at{" "}
               <a
-                className="no-underline hover:underline"
-                href="https://www.crunchbase.com/organization/pointclickcare"
+                className="no-underline font-bold hover:underline"
+                href="https://www.linkedin.com/company/carta--/"
                 target="_blank"
                 rel="noreferrer"
               >
-                PointClickCare
-              </a>{" "}
-              and{" "}
+                Carta
+              </a>
+              , a Series G San Francisco-based equity management software
+              company, and{" "}
               <a
                 className="no-underline hover:underline"
                 href="https://uwaterloo.ca/systems-design-engineering/about-systems-design-engineering/what-systems-design-engineering"
@@ -37,26 +41,23 @@ const About = () => {
               </a>{" "}
               Student at the University of Waterloo.
             </p>
-            <br></br>I am...
+            <br></br>I am also...
             <ul className="list-disc pl-5">
               <li className="pb-2">
-                A product-centric developer and learning more product day by
-                day.{" "}
-              </li>
-              <li className="pb-2">
-                Currently building tech for non-profits with{" "}
+                Currently building pro-bono tech for non-profits with{" "}
                 <a
                   className="no-underline hover:underline"
                   href="https://uwblueprint.org/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  UW Blueprint.
+                  UW Blueprint and leading a team of 12 developers as a Product
+                  Manager.
                 </a>
               </li>
               <li>
-                Striving read more - last read was When Breathe Becomes
-                Air:&#41;{" "}
+                Prioritizing reading more - favourite book is When Breathe
+                Becomes Air, By Paul Kalanithi:&#41;{" "}
               </li>
               <li className="pb-2">
                 Love to play ultimate frisbee and hike{" "}
@@ -74,7 +75,7 @@ const About = () => {
                 >
                   RBC
                 </a>{" "}
-                and{" "}
+                ,{" "}
                 <a
                   className="underline"
                   href="https://www.tieit.ai/"
@@ -83,10 +84,20 @@ const About = () => {
                 >
                   TIEIT AI
                 </a>{" "}
+                and{" "}
+                <a
+                  className="underline"
+                  href="https://www.crunchbase.com/organization/pointclickcare"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  PointClickCare
+                </a>
+                .
               </li>
             </ul>
             <div className="pt-5">
-              <i>Currently seeking Summer 2024 internships</i>
+              <i>Currently seeking Winter 2025 internships</i>
             </div>
             {/* <Link href="/#projects">
               <p className="py-2 text-gray-600 underline cursor-pointer">
