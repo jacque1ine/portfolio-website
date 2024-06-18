@@ -20,7 +20,7 @@ const About = () => {
               Hi! I&apos;m Jacqueline, a product-oriented software engineer:)
               <br></br>
               <br></br>
-              I'm currently a Software Engineering Intern at{" "}
+              I&aposm currently a Software Engineering Intern at{" "}
               <a
                 className="no-underline font-bold hover:underline"
                 href="https://www.linkedin.com/company/carta--/"
