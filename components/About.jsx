@@ -17,7 +17,7 @@ const About = () => {
             </p>
             <h2 className="py-4">Who is Jacqueline?</h2>
             <p className="py-2 text-gray-600 font-medium">
-              Hi! I'm Jacqueline, a product-oriented software engineer:)
+              Hi! I&apos;m Jacqueline, a product-oriented software engineer:)
               <br></br>
               <br></br>I am currently a Software Engineering Intern at{" "}
               <a
